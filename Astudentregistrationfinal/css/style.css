@@ -1,0 +1,106 @@
+/*
+*/
+.h1 	{
+	  text-align:center;
+	}
+.hh1
+	{
+		background-image:url(1.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+.login
+	{
+		background:#03732a;
+		text-align:center;
+		color: #33DDFF ;
+		width:600px;
+		margin:10px auto;
+	}
+.fld
+	{
+		width:400px;
+		margin:10px;
+		padding:10px;
+		border-radius:10px;
+		
+	}
+.fldx
+	{
+		width:190px;
+		margin:10px;
+		padding:10px;
+		border-radius:10px;
+		
+	}
+.btn 
+	{
+		border:none;
+		background-color:silver;
+		width:150px;
+		margin:10px;
+		padding:10px;
+		border-radius:10px;
+	}
+a   {
+	text-decoration:none;
+	color:white;
+    }
+ .menubar{
+	    text-align:center;
+		background-color:black;
+		}
+		
+.menubar ul 
+       {
+		display:inline-flex;
+		list-style:none;
+	   }
+	   
+.menubar ul li
+       {
+	    width:120px;
+	    padding:15px;
+	    margin:15px;
+	   }
+	   
+.menubar ul li:hover
+       {
+		background-color:#03732a;
+		border-radius:10px;
+	   }
+	   
+.menubar ul li a
+       {
+	    color:white;
+		text-decoration:none;
+	   }
+	   
+.submenu
+       {
+	    display:none;
+		z-index:1;
+	   }
+	   
+.menubar ul li:hover .submenu
+       {
+	    display:block;
+		position:absolute;
+		background:#00cc99;
+		margin-top:15px;
+		margin-left:-22px;
+		border-radius:10px;
+		text-align: center;
+	   }
+	   
+.menubar ul li:hover .submenu ul
+       {
+		display:block;
+		margin:10px;
+	   }
+.menubar ul li:hover .submenu ul li
+       {
+		width:80px;
+		padding:10px;
+		border-bottom:1px solid white;
+	   }
